@@ -1,6 +1,5 @@
 package com.buthdev.demo.model;
 
-import jakarta.persistence.OneToMany;
 import lombok.Getter;
 
 @Getter
@@ -15,6 +14,5 @@ public enum Role {
 		this.role = role;
 	}
 	
-	@OneToMany
 	private User user;
 }
